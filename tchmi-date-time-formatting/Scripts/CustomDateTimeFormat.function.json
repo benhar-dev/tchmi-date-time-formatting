@@ -1,0 +1,30 @@
+﻿{
+  "function": {
+    "name": "CustomDateTimeFormat",
+    "namespace": "TcHmi.Functions.tchmi_date_time_formatting",
+    "displayName": "CustomDateTimeFormat",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/String"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": [
+      {
+        "name": "DateTimeString",
+        "displayName": "DateTimeString",
+        "type": "tchmi:general#/definitions/String",
+        "description": "",
+        "defaultValue": null,
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      }
+    ]
+  },
+  "$schema": "../.hmiframework/Schema/FunctionDescription.Schema.json"
+}
